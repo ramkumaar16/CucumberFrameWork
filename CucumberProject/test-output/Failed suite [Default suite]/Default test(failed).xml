@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Einzton" name="TestNG.TestNGRetryFailedDemo" tests="2" failures="0" timestamp="9 Jan 2020 08:05:39 GMT" time="62.111" errors="0">
+  <testcase name="test2" time="31.303" classname="TestNG.TestNGRetryFailedDemo"/>
+  <testcase name="test3" time="30.787" classname="TestNG.TestNGRetryFailedDemo"/>
+</testsuite>

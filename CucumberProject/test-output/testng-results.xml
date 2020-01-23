@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49395" started-at="2020-01-22T15:11:43Z" finished-at="2020-01-22T15:12:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49395" started-at="2020-01-22T15:11:43Z" finished-at="2020-01-22T15:12:33Z">
+      <class name="TestNGFrameWork.AddProjectandSprint">
+        <test-method status="PASS" signature="loginpage()[pri:0, instance:TestNGFrameWork.AddProjectandSprint@1a968a59]" name="loginpage" is-config="true" duration-ms="18236" started-at="2020-01-22T20:41:43Z" finished-at="2020-01-22T20:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="addProject()[pri:0, instance:TestNGFrameWork.AddProjectandSprint@1a968a59]" name="addProject" duration-ms="13619" started-at="2020-01-22T20:42:01Z" finished-at="2020-01-22T20:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProject -->
+        <test-method status="PASS" signature="addSprint()[pri:0, instance:TestNGFrameWork.AddProjectandSprint@1a968a59]" name="addSprint" duration-ms="6778" started-at="2020-01-22T20:42:15Z" finished-at="2020-01-22T20:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSprint -->
+        <test-method status="PASS" signature="addTask()[pri:0, instance:TestNGFrameWork.AddProjectandSprint@1a968a59]" name="addTask" duration-ms="8469" started-at="2020-01-22T20:42:22Z" finished-at="2020-01-22T20:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTask -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestNGFrameWork.AddProjectandSprint@1a968a59]" name="close" is-config="true" duration-ms="2205" started-at="2020-01-22T20:42:30Z" finished-at="2020-01-22T20:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestNGFrameWork.AddProjectandSprint -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
