@@ -21,16 +21,16 @@ public class LoginTool extends ScreenShot {
 	
 WebDriver driver ;
 	
-    @Given("^Username as \"([^\"]*)\" and Password as \"([^\"]*)\"$")
-    public void launchBrowser(String arg1,String arg2){
+    @Given("^Given Launch browser$")
+    public void launchBrowser(){
     	System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 	    driver = new ChromeDriver();
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	    driver.get("http://auth.taskable.co:2100/");
 	    driver.manage().window().maximize();
-	    driver.findElement(By.id("name")).sendKeys(arg1);
+	    driver.findElement(By.id("name")).sendKeys("");
 	   // takeSnap();
-    	driver.findElement(By.id("password")).sendKeys(arg2+Keys.ENTER);
+    	driver.findElement(By.id("password")).sendKeys(""+Keys.ENTER);
     	//driver.findElement(By.xpath("//form[@id='login-frm']")).click();
     }
     @When("^Create Project in Dev$")

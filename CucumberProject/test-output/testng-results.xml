@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="49395" started-at="2020-01-22T15:11:43Z" finished-at="2020-01-22T15:12:33Z">
+  <suite name="Default suite" duration-ms="6616" started-at="2020-01-23T14:23:09Z" finished-at="2020-01-23T14:23:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="49395" started-at="2020-01-22T15:11:43Z" finished-at="2020-01-22T15:12:33Z">
-      <class name="TestNGFrameWork.AddProjectandSprint">
-        <test-method status="PASS" signature="loginpage()[pri:0, instance:TestNGFrameWork.AddProjectandSprint@1a968a59]" name="loginpage" is-config="true" duration-ms="18236" started-at="2020-01-22T20:41:43Z" finished-at="2020-01-22T20:42:01Z">
+    <test name="Default test" duration-ms="6616" started-at="2020-01-23T14:23:09Z" finished-at="2020-01-23T14:23:16Z">
+      <class name="FrameWork.LoginPage">
+        <test-method status="FAIL" signature="myclass()[pri:0, instance:FrameWork.LoginPage@6a4f787b]" name="myclass" duration-ms="36" started-at="2020-01-23T19:53:09Z" finished-at="2020-01-23T19:53:09Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerExceptionat FrameWork.LoginPage.myclass(LoginPage.java:16)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginpage -->
-        <test-method status="PASS" signature="addProject()[pri:0, instance:TestNGFrameWork.AddProjectandSprint@1a968a59]" name="addProject" duration-ms="13619" started-at="2020-01-22T20:42:01Z" finished-at="2020-01-22T20:42:15Z">
+        </test-method> <!-- myclass -->
+        <test-method status="PASS" signature="startapp()[pri:0, instance:FrameWork.LoginPage@6a4f787b]" name="startapp" duration-ms="6468" started-at="2020-01-23T19:53:09Z" finished-at="2020-01-23T19:53:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProject -->
-        <test-method status="PASS" signature="addSprint()[pri:0, instance:TestNGFrameWork.AddProjectandSprint@1a968a59]" name="addSprint" duration-ms="6778" started-at="2020-01-22T20:42:15Z" finished-at="2020-01-22T20:42:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addSprint -->
-        <test-method status="PASS" signature="addTask()[pri:0, instance:TestNGFrameWork.AddProjectandSprint@1a968a59]" name="addTask" duration-ms="8469" started-at="2020-01-22T20:42:22Z" finished-at="2020-01-22T20:42:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addTask -->
-        <test-method status="PASS" signature="close()[pri:0, instance:TestNGFrameWork.AddProjectandSprint@1a968a59]" name="close" is-config="true" duration-ms="2205" started-at="2020-01-22T20:42:30Z" finished-at="2020-01-22T20:42:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- TestNGFrameWork.AddProjectandSprint -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- startapp -->
+      </class> <!-- FrameWork.LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
